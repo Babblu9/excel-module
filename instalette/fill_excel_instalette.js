@@ -29,6 +29,15 @@ async function fillExcel(config, outputPath) {
             sheetRev.getCell('G19').value = parseFloat(onlineSaleSaver.units) || 0;
             sheetRev.getCell('I19').value = parseFloat(onlineSaleSaver.price) || 0;
         }
+
+        // Clear unused rows
+        for (let i = 10; i <= 200; i++) {
+            if (i !== 10 && i !== 11 && i !== 19) {
+                sheetRev.getCell(`E${i}`).value = '';
+                sheetRev.getCell(`G${i}`).value = '';
+                sheetRev.getCell(`I${i}`).value = '';
+            }
+        }
     } else {
         console.warn('Revenue sheet not found');
     }

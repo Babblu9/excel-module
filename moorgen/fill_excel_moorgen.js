@@ -18,6 +18,15 @@ async function fillExcel(config, outputPath) {
             sheetRev.getCell('H10').value = parseFloat(franchisee.units) || 0;
             sheetRev.getCell('J10').value = parseFloat(franchisee.price) || 0;
         }
+
+        // Clear unused rows
+        for (let i = 10; i <= 200; i++) {
+            if (i !== 10) {
+                sheetRev.getCell(`F${i}`).value = '';
+                sheetRev.getCell(`H${i}`).value = '';
+                sheetRev.getCell(`J${i}`).value = '';
+            }
+        }
     } else {
         console.warn('Revenue sheet not found');
     }

@@ -39,7 +39,12 @@ function computeServiceMonthly(service, totalMonths = 72) {
             }
         }
 
-        const quantity = currentUnits;
+        // Support hardcoded sales number ramps (e.g., first 6 months)
+        let quantity = currentUnits;
+        if (service.manualRamp && m < service.manualRamp.length) {
+            quantity = service.manualRamp[m];
+            currentUnits = quantity; // anchor the future formulas to the last hardcoded ramp month
+        }
         const revenue = quantity * currentPrice;
 
         results.push({
