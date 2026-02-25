@@ -1,0 +1,760 @@
+{
+  "roles": [
+    {
+      "id": "data_entry",
+      "name": "Data Entry",
+      "salary": 15000,
+      "standardHours": 208,
+      "outputPercentage": 0.8
+    },
+    {
+      "id": "jr_acct",
+      "name": "Junior Accountant",
+      "salary": 20000,
+      "standardHours": 208,
+      "outputPercentage": 0.8
+    },
+    {
+      "id": "sr_acct",
+      "name": "Senior Accountant",
+      "salary": 32500,
+      "standardHours": 208,
+      "outputPercentage": 0.8
+    },
+    {
+      "id": "reviewer",
+      "name": "Reviewer/Semi Qualified",
+      "salary": 40000,
+      "standardHours": 208,
+      "outputPercentage": 0.8
+    },
+    {
+      "id": "jr_ca",
+      "name": "Jr CA",
+      "salary": 50000,
+      "standardHours": 208,
+      "outputPercentage": 0.8
+    },
+    {
+      "id": "sr_ca",
+      "name": "Sr CA",
+      "salary": 80000,
+      "standardHours": 208,
+      "outputPercentage": 0.8
+    },
+    {
+      "id": "gst_jr",
+      "name": "GST Executive - Jr",
+      "salary": 23000,
+      "standardHours": 208,
+      "outputPercentage": 0.8
+    },
+    {
+      "id": "gst_sr",
+      "name": "GST Executive - Sr",
+      "salary": 36500,
+      "standardHours": 208,
+      "outputPercentage": 0.8
+    },
+    {
+      "id": "roc_exec",
+      "name": "ROC/Secretarial Executive",
+      "salary": 32500,
+      "standardHours": 208,
+      "outputPercentage": 0.8
+    },
+    {
+      "id": "it_exec",
+      "name": "Income Tax Executive",
+      "salary": 32500,
+      "standardHours": 208,
+      "outputPercentage": 0.8
+    },
+    {
+      "id": "tds_exec",
+      "name": "TDS Executive",
+      "salary": 26000,
+      "standardHours": 208,
+      "outputPercentage": 0.8
+    },
+    {
+      "id": "payroll_exec",
+      "name": "Payroll Executive",
+      "salary": 27500,
+      "standardHours": 208,
+      "outputPercentage": 0.8
+    },
+    {
+      "id": "audit_asst",
+      "name": "Audit Assistant",
+      "salary": 24000,
+      "standardHours": 208,
+      "outputPercentage": 0.8
+    },
+    {
+      "id": "cfo_assoc",
+      "name": "Virtual CFO Associate",
+      "salary": 65000,
+      "standardHours": 208,
+      "outputPercentage": 0.8
+    },
+    {
+      "id": "telecaller_jr",
+      "name": "Telecaller - Jr",
+      "salary": 15000,
+      "standardHours": 208,
+      "outputPercentage": 0.8
+    },
+    {
+      "id": "telecaller_sr",
+      "name": "Telecaller - Sr",
+      "salary": 23000,
+      "standardHours": 208,
+      "outputPercentage": 0.8
+    },
+    {
+      "id": "caller_mgr",
+      "name": "Caller Manager",
+      "salary": 40000,
+      "standardHours": 208,
+      "outputPercentage": 0.8
+    },
+    {
+      "id": "sales_jr",
+      "name": "Sales Men - Jr",
+      "salary": 20000,
+      "standardHours": 208,
+      "outputPercentage": 0.8
+    },
+    {
+      "id": "sales_sr",
+      "name": "Sales Men - Sr",
+      "salary": 32500,
+      "standardHours": 208,
+      "outputPercentage": 0.8
+    },
+    {
+      "id": "sales_mgr",
+      "name": "Sales Manager",
+      "salary": 55000,
+      "standardHours": 208,
+      "outputPercentage": 0.8
+    },
+    {
+      "id": "delivery_jr",
+      "name": "Delivery Jr",
+      "salary": 23000,
+      "standardHours": 208,
+      "outputPercentage": 0.8
+    },
+    {
+      "id": "delivery_sr",
+      "name": "Delivery Sr",
+      "salary": 36500,
+      "standardHours": 208,
+      "outputPercentage": 0.8
+    },
+    {
+      "id": "delivery_mgr",
+      "name": "Delivery manager",
+      "salary": 52500,
+      "standardHours": 208,
+      "outputPercentage": 0.8
+    },
+    {
+      "id": "reception",
+      "name": "Reception",
+      "salary": 16000,
+      "standardHours": 208,
+      "outputPercentage": 0.8
+    },
+    {
+      "id": "helpers",
+      "name": "Helpers",
+      "salary": 12500,
+      "standardHours": 208,
+      "outputPercentage": 0.8
+    },
+    {
+      "id": "cleaning",
+      "name": "Cleaning",
+      "salary": 10000,
+      "standardHours": 208,
+      "outputPercentage": 0.8
+    },
+    {
+      "id": "fsd_jr",
+      "name": "Full Stack Developer - Jr",
+      "salary": 40000,
+      "standardHours": 208,
+      "outputPercentage": 0.8
+    },
+    {
+      "id": "fsd_sr",
+      "name": "Full Stack Developer - Sr",
+      "salary": 70000,
+      "standardHours": 208,
+      "outputPercentage": 0.8
+    },
+    {
+      "id": "ui_ux",
+      "name": "UI/UX Designer",
+      "salary": 47500,
+      "standardHours": 208,
+      "outputPercentage": 0.8
+    },
+    {
+      "id": "qa_exec",
+      "name": "QA/Testing Executive",
+      "salary": 35000,
+      "standardHours": 208,
+      "outputPercentage": 0.8
+    },
+    {
+      "id": "it_support",
+      "name": "IT Support/System Admin",
+      "salary": 32500,
+      "standardHours": 208,
+      "outputPercentage": 0.8
+    },
+    {
+      "id": "tech_lead",
+      "name": "Tech Lead",
+      "salary": 115000,
+      "standardHours": 208,
+      "outputPercentage": 0.8
+    },
+    {
+      "id": "cs_exec",
+      "name": "Customer Success Executive",
+      "salary": 27500,
+      "standardHours": 208,
+      "outputPercentage": 0.8
+    },
+    {
+      "id": "cs_mgr",
+      "name": "Customer Success Manager",
+      "salary": 45000,
+      "standardHours": 208,
+      "outputPercentage": 0.8
+    },
+    {
+      "id": "onboarding_spec",
+      "name": "Client Onboarding Specialist",
+      "salary": 30000,
+      "standardHours": 208,
+      "outputPercentage": 0.8
+    },
+    {
+      "id": "rm",
+      "name": "Relationship Manager",
+      "salary": 40000,
+      "standardHours": 208,
+      "outputPercentage": 0.8
+    },
+    {
+      "id": "ops_exec",
+      "name": "Operations Executive",
+      "salary": 27500,
+      "standardHours": 208,
+      "outputPercentage": 0.8
+    },
+    {
+      "id": "ops_mgr",
+      "name": "Operations Manager",
+      "salary": 52500,
+      "standardHours": 208,
+      "outputPercentage": 0.8
+    },
+    {
+      "id": "qa",
+      "name": "Quality Analyst",
+      "salary": 32500,
+      "standardHours": 208,
+      "outputPercentage": 0.8
+    },
+    {
+      "id": "mis_exec",
+      "name": "MIS Executive",
+      "salary": 30000,
+      "standardHours": 208,
+      "outputPercentage": 0.8
+    },
+    {
+      "id": "process_trainer",
+      "name": "Process Trainer",
+      "salary": 36500,
+      "standardHours": 208,
+      "outputPercentage": 0.8
+    },
+    {
+      "id": "hr_exec",
+      "name": "HR Executive",
+      "salary": 27500,
+      "standardHours": 208,
+      "outputPercentage": 0.8
+    },
+    {
+      "id": "hr_mgr",
+      "name": "HR Manager",
+      "salary": 52500,
+      "standardHours": 208,
+      "outputPercentage": 0.8
+    },
+    {
+      "id": "ta",
+      "name": "Recruiter/Talent Acquisition",
+      "salary": 35000,
+      "standardHours": 208,
+      "outputPercentage": 0.8
+    },
+    {
+      "id": "acct_exec",
+      "name": "Accounts Executive",
+      "salary": 24000,
+      "standardHours": 208,
+      "outputPercentage": 0.8
+    },
+    {
+      "id": "fin_mgr",
+      "name": "Finance Manager",
+      "salary": 65000,
+      "standardHours": 208,
+      "outputPercentage": 0.8
+    }
+  ],
+  "marketing": {
+    "totalMonthlySpend": 155000,
+    "totalLeads": 740,
+    "conversionFunnel": [
+      {
+        "name": "MQL",
+        "conversionPct": 0.4
+      },
+      {
+        "name": "SQL",
+        "conversionPct": 0.5
+      },
+      {
+        "name": "Proposals",
+        "conversionPct": 0.7
+      },
+      {
+        "name": "Closed Won",
+        "conversionPct": 0.3
+      }
+    ]
+  },
+  "products": [
+    {
+      "id": "PVT-001",
+      "name": "Pvt Ltd Company",
+      "laborHours": {
+        "jr_acct": 8,
+        "reviewer": 1,
+        "telecaller_jr": 1,
+        "sales_jr": 1,
+        "cs_exec": 0.5
+      },
+      "govtCosts": [
+        {
+          "name": "Stamp Duty",
+          "amount": 1200
+        },
+        {
+          "name": "DSC - Director 1",
+          "amount": 1300
+        },
+        {
+          "name": "DSC - Director 2",
+          "amount": 1300
+        },
+        {
+          "name": "MCA Name Approval Fee",
+          "amount": 1000
+        },
+        {
+          "name": "SPICe+/LLP Filing Fee",
+          "amount": 500
+        }
+      ],
+      "marginPct": 0.25,
+      "arr": 20000,
+      "retentionRate": 0.8
+    },
+    {
+      "id": "LLP-001",
+      "name": "LLP Registration",
+      "laborHours": {
+        "jr_acct": 6,
+        "reviewer": 1,
+        "telecaller_jr": 1,
+        "sales_jr": 1,
+        "cs_exec": 0.5
+      },
+      "govtCosts": [
+        {
+          "name": "Stamp Duty",
+          "amount": 500
+        },
+        {
+          "name": "DSC - Director 1",
+          "amount": 1300
+        },
+        {
+          "name": "DSC - Director 2",
+          "amount": 1300
+        },
+        {
+          "name": "MCA Name Approval Fee",
+          "amount": 1000
+        },
+        {
+          "name": "SPICe+/LLP Filing Fee",
+          "amount": 800
+        }
+      ],
+      "marginPct": 0.25,
+      "arr": 15000,
+      "retentionRate": 0.75
+    },
+    {
+      "id": "OPC-001",
+      "name": "OPC Registration",
+      "laborHours": {
+        "jr_acct": 5,
+        "reviewer": 0.5,
+        "telecaller_jr": 1,
+        "sales_jr": 1,
+        "cs_exec": 0.5
+      },
+      "govtCosts": [
+        {
+          "name": "Stamp Duty",
+          "amount": 200
+        },
+        {
+          "name": "DSC - Director 1",
+          "amount": 1300
+        },
+        {
+          "name": "MCA Name Approval Fee",
+          "amount": 1000
+        },
+        {
+          "name": "SPICe+/LLP Filing Fee",
+          "amount": 500
+        }
+      ],
+      "marginPct": 0.25,
+      "arr": 10000,
+      "retentionRate": 0.7
+    },
+    {
+      "id": "GST-REG",
+      "name": "GST Registration",
+      "laborHours": {
+        "jr_acct": 3,
+        "gst_jr": 1,
+        "telecaller_jr": 0.5,
+        "sales_jr": 1,
+        "delivery_jr": 1
+      },
+      "govtCosts": [],
+      "marginPct": 0.25,
+      "arr": 8000,
+      "retentionRate": 0.7
+    },
+    {
+      "id": "MSME-001",
+      "name": "MSME/Udyam Reg",
+      "laborHours": {
+        "jr_acct": 2,
+        "telecaller_jr": 0.5,
+        "sales_jr": 0.5,
+        "delivery_jr": 0.5
+      },
+      "govtCosts": [],
+      "marginPct": 0.25,
+      "arr": 2000,
+      "retentionRate": 0.75
+    },
+    {
+      "id": "FSSAI-001",
+      "name": "FSSAI License",
+      "laborHours": {
+        "jr_acct": 3,
+        "telecaller_jr": 0.5,
+        "sales_jr": 1,
+        "delivery_jr": 1
+      },
+      "govtCosts": [
+        {
+          "name": "FSSAI License Fee",
+          "amount": 2000
+        }
+      ],
+      "marginPct": 0.25,
+      "arr": 5000,
+      "retentionRate": 0.8
+    },
+    {
+      "id": "IEC-001",
+      "name": "Import Export Code",
+      "laborHours": {
+        "jr_acct": 2,
+        "reviewer": 0.5,
+        "telecaller_jr": 0.5,
+        "sales_jr": 0.5,
+        "delivery_jr": 0.5
+      },
+      "govtCosts": [
+        {
+          "name": "IEC Registration Fee",
+          "amount": 500
+        }
+      ],
+      "marginPct": 0.25,
+      "arr": 3000,
+      "retentionRate": 0.6
+    },
+    {
+      "id": "DPIIT-001",
+      "name": "Startup India",
+      "laborHours": {
+        "jr_acct": 2,
+        "telecaller_jr": 0.5,
+        "sales_jr": 0.5,
+        "delivery_jr": 0.5
+      },
+      "govtCosts": [],
+      "marginPct": 0.25,
+      "arr": 2000,
+      "retentionRate": 0.5
+    },
+    {
+      "id": "PF-REG",
+      "name": "PF Registration",
+      "laborHours": {
+        "jr_acct": 3,
+        "payroll_exec": 1,
+        "telecaller_jr": 0.5,
+        "sales_jr": 0.5,
+        "delivery_jr": 0.5
+      },
+      "govtCosts": [
+        {
+          "name": "PF/ESI Registration Fee",
+          "amount": 500
+        }
+      ],
+      "marginPct": 0.25,
+      "arr": 6000,
+      "retentionRate": 0.85
+    },
+    {
+      "id": "ESI-REG",
+      "name": "ESI Registration",
+      "laborHours": {
+        "jr_acct": 3,
+        "payroll_exec": 1,
+        "telecaller_jr": 0.5,
+        "sales_jr": 0.5,
+        "delivery_jr": 0.5
+      },
+      "govtCosts": [
+        {
+          "name": "PF/ESI Registration Fee",
+          "amount": 500
+        }
+      ],
+      "marginPct": 0.25,
+      "arr": 4000,
+      "retentionRate": 0.8
+    },
+    {
+      "id": "ROC-ANN",
+      "name": "ROC Annual Filing",
+      "laborHours": {
+        "jr_acct": 4,
+        "reviewer": 1,
+        "roc_exec": 2,
+        "sales_jr": 0.5,
+        "delivery_jr": 0.5,
+        "cs_exec": 0.5
+      },
+      "govtCosts": [
+        {
+          "name": "ROC Filing Fee",
+          "amount": 600
+        }
+      ],
+      "marginPct": 0.25,
+      "arr": 0,
+      "retentionRate": 0.9
+    },
+    {
+      "id": "GST-MON",
+      "name": "GST Monthly Filing",
+      "laborHours": {
+        "data_entry": 1,
+        "jr_acct": 2,
+        "gst_jr": 2,
+        "sales_jr": 0.5,
+        "delivery_jr": 0.5
+      },
+      "govtCosts": [],
+      "marginPct": 0.25,
+      "arr": 0,
+      "retentionRate": 0.85
+    },
+    {
+      "id": "GST-ANN",
+      "name": "GST Annual Return",
+      "laborHours": {
+        "data_entry": 1,
+        "jr_acct": 3,
+        "reviewer": 1,
+        "gst_jr": 3,
+        "sales_jr": 0.5,
+        "delivery_jr": 0.5,
+        "cs_exec": 0.5
+      },
+      "govtCosts": [],
+      "marginPct": 0.25,
+      "arr": 0,
+      "retentionRate": 0.85
+    },
+    {
+      "id": "TDS-QTR",
+      "name": "TDS Quarterly",
+      "laborHours": {
+        "data_entry": 1,
+        "jr_acct": 2,
+        "reviewer": 0.5,
+        "tds_exec": 2,
+        "sales_jr": 0.5,
+        "delivery_jr": 0.5
+      },
+      "govtCosts": [],
+      "marginPct": 0.25,
+      "arr": 0,
+      "retentionRate": 0.85
+    },
+    {
+      "id": "ITR-BIZ",
+      "name": "ITR Business",
+      "laborHours": {
+        "data_entry": 1,
+        "jr_acct": 4,
+        "reviewer": 1,
+        "it_exec": 3,
+        "sales_jr": 0.5,
+        "delivery_jr": 0.5,
+        "cs_exec": 0.5
+      },
+      "govtCosts": [],
+      "marginPct": 0.25,
+      "arr": 0,
+      "retentionRate": 0.8
+    },
+    {
+      "id": "BOOK-MON",
+      "name": "Monthly Bookkeeping",
+      "laborHours": {
+        "data_entry": 2,
+        "jr_acct": 6,
+        "reviewer": 1,
+        "sales_jr": 0.5,
+        "delivery_jr": 0.5,
+        "cs_exec": 0.5
+      },
+      "govtCosts": [],
+      "marginPct": 0.25,
+      "arr": 0,
+      "retentionRate": 0.9
+    },
+    {
+      "id": "PAYROLL",
+      "name": "Payroll Processing",
+      "laborHours": {
+        "data_entry": 1,
+        "jr_acct": 3,
+        "reviewer": 0.5,
+        "payroll_exec": 3,
+        "sales_jr": 0.5,
+        "delivery_jr": 0.5,
+        "cs_exec": 0.5
+      },
+      "govtCosts": [],
+      "marginPct": 0.25,
+      "arr": 0,
+      "retentionRate": 0.85
+    },
+    {
+      "id": "DIR-CHG",
+      "name": "Director Change",
+      "laborHours": {
+        "jr_acct": 2,
+        "reviewer": 0.5,
+        "roc_exec": 1,
+        "telecaller_jr": 0.5,
+        "sales_jr": 0.5,
+        "delivery_jr": 0.5
+      },
+      "govtCosts": [
+        {
+          "name": "ROC Filing Fee",
+          "amount": 300
+        }
+      ],
+      "marginPct": 0.25,
+      "arr": 0,
+      "retentionRate": 0.2
+    },
+    {
+      "id": "NAME-CHG",
+      "name": "Name Change",
+      "laborHours": {
+        "jr_acct": 3,
+        "reviewer": 0.5,
+        "roc_exec": 2,
+        "telecaller_jr": 0.5,
+        "sales_jr": 0.5,
+        "delivery_jr": 0.5
+      },
+      "govtCosts": [
+        {
+          "name": "SPICe+/LLP Filing Fee",
+          "amount": 500
+        },
+        {
+          "name": "ROC Filing Fee",
+          "amount": 300
+        }
+      ],
+      "marginPct": 0.25,
+      "arr": 0,
+      "retentionRate": 0.1
+    },
+    {
+      "id": "DSC-001",
+      "name": "DSC Certificate",
+      "laborHours": {
+        "jr_acct": 1,
+        "telecaller_jr": 0.5,
+        "sales_jr": 0.5,
+        "delivery_jr": 0.5
+      },
+      "govtCosts": [
+        {
+          "name": "DSC - Director 1",
+          "amount": 1300
+        }
+      ],
+      "marginPct": 0.25,
+      "arr": 0,
+      "retentionRate": 0.3
+    }
+  ]
+}
