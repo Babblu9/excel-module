@@ -4,3 +4,4 @@ node_modules
 *.xlsx
 info/raw_formulas.json
 info/raw_formula_audit.txt
+.next/
